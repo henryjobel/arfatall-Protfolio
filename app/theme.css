@@ -1,0 +1,31 @@
+.glossy-gradient {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .glossy-gradient::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle at top left, rgba(255, 255, 255, 0.6), transparent);
+    z-index: 1;
+    opacity: 0.4;
+    transform: translateY(-30%) rotate(45deg);
+  }
+  
+  .glossy-gradient::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle at bottom right, rgba(0, 0, 0, 0.2), transparent);
+    z-index: 1;
+    opacity: 0.4;
+    transform: translateY(30%) rotate(45deg);
+  }
+  
