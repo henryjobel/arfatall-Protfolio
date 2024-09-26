@@ -13,6 +13,8 @@
     "@fortawesome/free-brands-svg-icons": "^6.3.0",
     "@fortawesome/free-solid-svg-icons": "^6.3.0",
     "@fortawesome/react-fontawesome": "^0.2.0",
+    "@react-three/drei": "^9.114.0",
+    "@react-three/fiber": "^8.17.8",
     "@tabler/icons-react": "^3.17.0",
     "@tailwindcss/line-clamp": "^0.4.2",
     "@vercel/analytics": "^0.1.11",
@@ -32,6 +34,8 @@
     "scroller-motion": "^1.2.3",
     "sharp": "^0.32.0",
     "tailwind-merge": "^2.5.2",
+    "three": "^0.168.0",
+    "three-globe": "^2.31.3",
     "touch-cli": "^0.0.1"
   },
   "devDependencies": {

@@ -10,7 +10,8 @@ import "./theme.css"
 
 import dynamic from "next/dynamic";
 import Reviews from "./reviews-section/ReviewGrid";
-import { BentoGridSecondDemo } from "./feature/feature";
+import { BentoGridSecondDemo, FeaturesSectionDemo } from "./feature/feature";
+import { GlobeDemo } from "./globes/Globes";
 const Work = dynamic(() => import("./work-section/Work"));
 const About = dynamic(() => import("./about-section/About"));
 const Blog = dynamic(() => import("./blog-section/BlogGrid"));
@@ -47,7 +48,9 @@ export default function Home() {
         <Reviews/>
         <About />
         <Blog />
+        <GlobeDemo></GlobeDemo>
         <Contact />
+        
         <Footer />
       </main>
       {/* </ScrollerMotion> */}
