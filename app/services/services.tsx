@@ -4,6 +4,9 @@ import service2 from "../../public/services/service2.jpg";
 import service3 from "../../public/services/service 3.jpg";
 import service4 from "../../public/services/service 4.jpg";
 import { motion } from "framer-motion"; // Importing motion from framer-motion
+import { monaSans } from '../fonts/monaSans';
+import AnimatedWords2 from '../animations/AnimatedWords2';
+import AnimatedBody from '../animations/AnimatedBody';
 
 const data = [
   {
@@ -65,9 +68,18 @@ export default function Services() {
   return (
     <div className="max-w-screen-xl mx-auto p-5 sm:p-10 md:p-16 text-center">
       {/* Heading */}
-      <h1 className="text-3xl md:text-5xl font-bold mb-12 text-white">
-        My Services
-      </h1>
+      <div
+        className={`relative mb-16 flex w-full flex-col items-center justify-center gap-10  text-[#e4ded7] sm:items-center lg:max-w-[1440px]`}
+      >
+        <AnimatedWords2
+          title={"Services"}
+          style={`flex max-w-[500px] flex-col items-start text-left pr-5 ${monaSans.className} font-extrabold uppercase leading-[0.9em] text-[#e4ded7] sm:max-w-full sm:flex-row sm:items-center sm:justify-center sm:text-center lg:text-center text-[clamp(70px,14vw,155.04px)]`}
+        />
+        <AnimatedBody
+          text="Real Stories from Clients and Collaborators Who Have Experienced My Work Firsthand"
+          className="w-[90%] text-center text-[14px] font-semibold uppercase sm:w-[500px] md:w-[550px] md:text-[16px]"
+        />
+      </div>
       
       {/* Grid Layout with 2 columns */}
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 justify-center">
