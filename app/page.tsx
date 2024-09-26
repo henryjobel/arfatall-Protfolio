@@ -12,6 +12,7 @@ import dynamic from "next/dynamic";
 import Reviews from "./reviews-section/ReviewGrid";
 import { GlobeDemo } from "./globes/Globes";
 import { TimelineDemo } from "./certtifications/certification";
+import { BentoGridSecondDemo } from "./bentpgrid/bentogrid";
 const Work = dynamic(() => import("./work-section/Work"));
 const About = dynamic(() => import("./about-section/About"));
 const Blog = dynamic(() => import("./blog-section/BlogGrid"));
@@ -47,7 +48,7 @@ export default function Home() {
         <Work />
         <Reviews/>
         <About />
-        <TimelineDemo></TimelineDemo>
+       <TimelineDemo></TimelineDemo>
         <Blog />
         <GlobeDemo></GlobeDemo>
         <Contact />

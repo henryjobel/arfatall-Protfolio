@@ -1,89 +1,171 @@
 import Image from "next/image";
 import React from "react";
 import { Timeline } from "../ui/timeline";
+import certificate1 from "../../public/certificates/certificate1_page-0001.jpg";
+import certificate2 from "../../public/certificates/certificate2_page-0001.jpg";
+import certificate3 from "../../public/certificates/certificate3.jpeg";
+import crtificate4 from "../../public/certificates/certificate4.jpeg"
 
 export function TimelineDemo() {
   const data = [
     {
       title: "2024",
       content: (
-        <div>
-          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8">
-            Built and launched Aceternity UI and Aceternity UI Pro from scratch
-          </p>
-          <div className="grid grid-cols-2 gap-4">
-            <Image
-              src="https://assets.aceternity.com/templates/startup-1.webp"
-              alt="startup template"
-              width={500}
-              height={500}
-              className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
-            />
-            
-          </div>
-        </div>
+        <div
+  style={{
+    background: "linear-gradient(135deg, rgba(0, 0, 0, 0.3) 0%, rgba(103, 124, 201, 0.7) 100%)", // Black to #677cc9 gradient
+    backdropFilter: "blur(20px)", // Blur effect for the glassy look
+    boxShadow: "0 8px 32px rgba(0, 0, 0, 0.4)", // Shadow for a 3D effect
+    border: "1px solid rgba(255, 255, 255, 0.2)", // Subtle border
+    borderRadius: "50px", // Rounded corners
+    opacity: 0.85, // Transparency
+    padding: "20px", // Add padding for space
+    position: "relative",
+    backgroundSize: "cover",
+    backgroundRepeat: "no-repeat",
+    backgroundPosition: "center center",
+    width: "500px"
+  }}
+>
+  <p className="text-white text-xs md:text-xl font-bold mb-8">
+    Licenses & Certifications <br />
+    Google Ads - Measurement Certification <br />
+    Issued Sep 2024 <br />
+    Credential ID 115956224
+  </p>
+  <div>
+    <Image
+      src={certificate1}
+      alt="Google Ads - Measurement Certification"
+      width={500}
+      height={500}
+      style={{
+        borderRadius: "15px", // Rounded corners for the image
+        boxShadow: "0 4px 16px rgba(0, 0, 0, 0.2)", // Shadow for a subtle 3D effect on the image
+      }}
+    />
+  </div>
+</div>
+
       ),
     },
     {
-      title: "Early 2023",
+      title: "2024",
       content: (
+        <div
+        style={{
+          background: "linear-gradient(135deg, rgba(0, 0, 0, 0.3) 0%, rgba(103, 124, 201, 0.7) 100%)", // Black to #677cc9 gradient
+          backdropFilter: "blur(20px)", // Blur effect for the glassy look
+          boxShadow: "0 8px 32px rgba(0, 0, 0, 0.4)", // Shadow for a 3D effect
+          border: "1px solid rgba(255, 255, 255, 0.2)", // Subtle border
+          borderRadius: "50px", // Rounded corners
+          opacity: 0.85, // Transparency
+          padding: "20px", // Add padding for space
+          position: "relative",
+          backgroundSize: "cover",
+          backgroundRepeat: "no-repeat",
+          backgroundPosition: "center center",
+          width: "500px"
+        }}
+      >
+        <p className="text-white text-xs md:text-xl font-bold mb-8">
+        Google Analytics Certification <br />
+Issued Sep 2024<br />
+Credential ID 115856262
+        </p>
         <div>
-          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8">
-            I usually run out of copy, but when I see content this big, I try to
-            integrate lorem ipsum.
-          </p>
-          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8">
-            Lorem ipsum is for people who are too lazy to write copy. But we are
-            not. Here are some more example of beautiful designs I built.
-          </p>
-          <div className="grid grid-cols-2 gap-4">
-            <Image
-              src="https://assets.aceternity.com/pro/hero-sections.png"
-              alt="hero template"
-              width={500}
-              height={500}
-              className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
-            />
-           
-          </div>
+          <Image
+            src={certificate2}
+            alt="Google Ads - Measurement Certification"
+            width={500}
+            height={500}
+            style={{
+              borderRadius: "15px", // Rounded corners for the image
+              boxShadow: "0 4px 16px rgba(0, 0, 0, 0.2)", // Shadow for a subtle 3D effect on the image
+            }}
+          />
         </div>
+      </div>
+      ),
+    },
+    
+    {
+      title: "2019",
+      content: (
+        <div
+        style={{
+          background: "linear-gradient(135deg, rgba(0, 0, 0, 0.3) 0%, rgba(103, 124, 201, 0.7) 100%)", // Black to #677cc9 gradient
+          backdropFilter: "blur(20px)", // Blur effect for the glassy look
+          boxShadow: "0 8px 32px rgba(0, 0, 0, 0.4)", // Shadow for a 3D effect
+          border: "1px solid rgba(255, 255, 255, 0.2)", // Subtle border
+          borderRadius: "50px", // Rounded corners
+          opacity: 0.85, // Transparency
+          padding: "20px", // Add padding for space
+          position: "relative",
+          backgroundSize: "cover",
+          backgroundRepeat: "no-repeat",
+          backgroundPosition: "center center",
+          width: "500px"
+        }}
+      >
+        <p className="text-white text-xs md:text-xl font-bold mb-8">
+        
+The Fundamentals Of Digital Marketing <br />
+Google Certified Digital Marketing Course
+        </p>
+        <div>
+          <Image
+            src={crtificate4}
+            alt="Google Ads - Measurement Certification"
+            width={500}
+            height={500}
+            style={{
+              borderRadius: "15px", // Rounded corners for the image
+              boxShadow: "0 4px 16px rgba(0, 0, 0, 0.2)", // Shadow for a subtle 3D effect on the image
+            }}
+          />
+        </div>
+      </div>
       ),
     },
     {
-      title: "Changelog",
+      title: "2024",
       content: (
+        <div
+        style={{
+          background: "linear-gradient(135deg, rgba(0, 0, 0, 0.3) 0%, rgba(103, 124, 201, 0.7) 100%)", // Black to #677cc9 gradient
+          backdropFilter: "blur(20px)", // Blur effect for the glassy look
+          boxShadow: "0 8px 32px rgba(0, 0, 0, 0.4)", // Shadow for a 3D effect
+          border: "1px solid rgba(255, 255, 255, 0.2)", // Subtle border
+          borderRadius: "50px", // Rounded corners
+          opacity: 0.85, // Transparency
+          padding: "20px", // Add padding for space
+          position: "relative",
+          backgroundSize: "cover",
+          backgroundRepeat: "no-repeat",
+          backgroundPosition: "center center",
+          width: "500px"
+        }}
+      >
+        <p className="text-white text-xs md:text-xl font-bold mb-8">
+       
+
+Create Your E-Commerce Store With Shopify <br />
+Coursera
+        </p>
         <div>
-          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-4">
-            Deployed 5 new components on Aceternity today
-          </p>
-          <div className="mb-8">
-            <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
-              ✅ Card grid component
-            </div>
-            <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
-              ✅ Startup template Aceternity
-            </div>
-            <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
-              ✅ Random file upload lol
-            </div>
-            <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
-              ✅ Himesh Reshammiya Music CD
-            </div>
-            <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
-              ✅ Salman Bhai Fan Club registrations open
-            </div>
-          </div>
-          <div className="grid grid-cols-2 gap-4">
-            <Image
-              src="https://assets.aceternity.com/pro/hero-sections.png"
-              alt="hero template"
-              width={500}
-              height={500}
-              className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
-            />
-           
-          </div>
+          <Image
+            src={certificate3}
+            alt="Google Ads - Measurement Certification"
+            width={500}
+            height={500}
+            style={{
+              borderRadius: "15px", // Rounded corners for the image
+              boxShadow: "0 4px 16px rgba(0, 0, 0, 0.2)", // Shadow for a subtle 3D effect on the image
+            }}
+          />
         </div>
+      </div>
       ),
     },
   ];
