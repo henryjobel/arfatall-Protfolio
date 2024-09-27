@@ -17,8 +17,8 @@ const BlogCard = ({
   index,
 }: reviewProps) => {
   const abbreviateName = (name: string): string => {
-    const [firstName, lastName] = name.split(" ");
-    return `${firstName} ${lastName[0]}.`;
+    const [firstName] = name.split(" ");
+    return `${firstName}.`;
   };
 
   return (

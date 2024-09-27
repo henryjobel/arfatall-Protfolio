@@ -3,7 +3,7 @@ import henry from "../../public/henry.png"
 import sohail from "../../public/640px-Upwork-logo.svg.webp"
 import shoaib from "../../public/640px-Upwork-logo.svg.webp"
 import miller_jeck from "../../public/JPEG_20240205_152651_2284387378115292667.webp"
-import werdsffg60 from "../../public/bec8ef4e-e934-42c8-9137-09149f17f860.jpeg"
+import werdsffg6 from "../../public/bec8ef4e-e934-42c8-9137-09149f17f860.jpeg"
 import alan from "../../public/1656739603transparent-fiverr-logo.webp"
 export type reviewProps = {
   name: string;
@@ -48,10 +48,10 @@ export const reviewDetails = [
       "I really appreciate them high-quality work and fair wages.",
   },
   {
-    name: "werdsffg60",
+    name: "werdsffg",
     role: "United Kingdom",
     company: "Fiverr",
-    profileImg: werdsffg60,
+    profileImg: werdsffg6,
     testimonial:
       "I really enjoyed working with Syed, his work is very professional and he did the work as per my requirements.",
   },
