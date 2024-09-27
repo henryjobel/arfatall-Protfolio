@@ -17,28 +17,28 @@ export type reviewProps = {
 
 export const reviewDetails = [
   {
-    name: "Imtiaz Nayeem",
+    name: "Henry Jobel",
     role: "Founder",
-    company: "Zipbox",
+    company: "Moonu tech Solution",
     profileImg: alex,
     testimonial:
-      "Henry is seriously one of the best WordPress Developer I've ever worked with. He's incredibly talented, super easy to work with, and always goes above and beyond.",
+      "Syed Arfat A. did an outstanding job creating our Shopify dropshipping store and adding 300 products. His expertise, timely delivery, and effectiveness were impressive. Highly recommended!",
   },
   {
-    name: "Aman ony",
-    role: "CEO",
-    company: "Anaya Tech Limited",
+    name: "Sohail S.",
+    role: "Jewelry Store Management",
+    company: "Shopify Store Client",
     profileImg: jerry,
     testimonial:
-      "Henry's work is truly outstanding, and I can't recommend him enough! He completely transformed our branding agency's website. Since launch, we've seen a significant jump in website traffic and, crucially, conversions.",
+      "Syed's really boosted our Jewelempire store sales. He's professional and effective. Highly recommended for great service.",
   },
   {
-    name: "Noman H",
-    role: "Founder",
-    company: "Blue Flower Media",
+    name: "Shoaib A",
+    role: "Business Manager",
+    company: "Up work Client",
     profileImg: mauro,
     testimonial:
-      "Henry has been a key part of our team at Blueflower Media. His expertise in MERN stack development consistently delivered high-quality, scalable solutions. He’s a reliable and skilled developer who adds great value to any project",
+      "Syed Arfat A. did an amazing job on our website project. He was attentive to our needs and delivered exactly what we wanted. Working with him was easy, and I highly recommend his services",
   },
   {
     name: "Umar Abdullahi",

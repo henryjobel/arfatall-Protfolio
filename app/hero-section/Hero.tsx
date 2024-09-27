@@ -120,7 +120,7 @@ const Hero = () => {
           <p className="z-50 text-center text-[16px] font-medium text-[#e4ded7] md:text-[20px] lg:text-left">
             Web Developer and Digital Maketer, prev at{" "}
             <Link
-              href="https://anayatechbd.com"
+              href="https://www.upwork.com/freelancers/~01082f72ca5e96269b"
               target="_blank"
               className="underline underline-offset-2 hover:no-underline"
               aria-label="Mono Website"
@@ -128,7 +128,7 @@ const Hero = () => {
               Upwork,
             </Link>{" "}
             <Link
-              href="https://anayatechbd.com"
+              href="https://www.fiverr.com/syedarfatali91?public_mode=true"
               target="_blank"
               className="underline underline-offset-2 hover:no-underline"
               aria-label="Mono Website"
@@ -136,7 +136,7 @@ const Hero = () => {
               Fiverr,
             </Link>{" "}
             <Link
-              href="https://anayatechbd.com"
+              href="https://www.linkedin.com/in/syedarfatali/"
               target="_blank"
               className="underline underline-offset-2 hover:no-underline"
               aria-label="Mono Website"
