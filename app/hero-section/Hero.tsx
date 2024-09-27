@@ -34,7 +34,7 @@ const Hero = () => {
 
         <div className="flex gap-10 text-[#e4ded7] sm:gap-12 md:gap-14 lg:gap-14">
           <Link
-            href="https://github.com/jobelhenry"
+            href="https://github.com/syedarfatali51"
             target="_blank"
             aria-label="View GitHub Profile"
           >
@@ -46,7 +46,7 @@ const Hero = () => {
             </motion.p>
           </Link>
           <Link
-            href="https://www.linkedin.com/in/henryjoy"
+            href="https://www.linkedin.com/in/syedarfatali/"
             target="_blank"
             aria-label="View LinkedIn Profile"
           >
@@ -58,7 +58,7 @@ const Hero = () => {
             </motion.p>
           </Link>
           <Link
-            href="https://twitter.com/jobelhenry__"
+            href="https://www.upwork.com/freelancers/~01082f72ca5e96269b"
             target="_blank"
             aria-label="View Twitter Profile"
           >
@@ -70,7 +70,7 @@ const Hero = () => {
             </motion.p>
           </Link>
           <Link
-            href="https://contra.com/henryjobel?utm_campaign=social_sharing&utm_medium=independent_share&utm_source=copy_link"
+            href="https://www.fiverr.com/syedarfatali91?public_mode=true"
             target="_blank"
             aria-label="View Contra Profile"
           >
@@ -78,7 +78,7 @@ const Hero = () => {
               className="text-[16px] font-bold text-[#e4ded7] md:text-[16px]"
               variants={bodyAnimation}
             >
-              FI
+              FIV
             </motion.p>
           </Link>
         </div>
