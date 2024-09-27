@@ -41,20 +41,20 @@ export const reviewDetails = [
       "Syed Arfat A. did an amazing job on our website project. He was attentive to our needs and delivered exactly what we wanted. Working with him was easy, and I highly recommend his services",
   },
   {
-    name: "Umar Abdullahi",
-    role: "Head of Engineering",
-    company: "Mono",
+    name: "miller_jeck",
+    role: "United States",
+    company: "Fiverr",
     profileImg: umar,
     testimonial:
-      "Henry is hardworking and has great sense of ownership. He was able to contribute in engineering excellent user interfaces and user experiences at Mono. I’m confident he will be a great asset to any engineering team.",
+      "I really appreciate them high-quality work and fair wages.",
   },
   {
-    name: "Olamide Sholanke",
-    role: "Senior Frontend Engineer",
-    company: "Mono",
+    name: "werdsffg60",
+    role: "United Kingdom",
+    company: "Fiverr",
     profileImg: olamide,
     testimonial:
-      "I had the pleasure of working with Victor on a frontend development project at Mono, and I highly recommend him. He consistently delivered high-quality code, and brought a proactive and creative approach to problem-solving.",
+      "I really enjoyed working with Syed, his work is very professional and he did the work as per my requirements.",
   },
   {
     name: "Alan Franciskovic",
