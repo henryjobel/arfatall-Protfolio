@@ -25,18 +25,18 @@ const About = () => {
           <div className="mb-10 flex w-[100%] flex-col gap-4 text-[18px] font-medium  leading-relaxed tracking-wide text-[#e4ded7] md:mb-16 md:gap-6 md:text-[20px] md:leading-relaxed lg:mb-16  lg:max-w-[90%] lg:text-[24px] ">
             <AnimatedBody
               text={
-                "I specialize in crafting high-converting landing pages and websites for SaaS, Web3 & AI startups. I'm passionate about building software that makes a difference."
+                "I specialize in crafting high-converting landing pages and websites for SaaS, Web3 & AI startups. I'm passionate about building software that makes a difference and Digital Markeing."
               }
             />
             <AnimatedBody
               text={
-                "Whether I’m designing a sleek user interface or coding a complex application, I’m always striving to create something unique and innovative. I love experimenting with new technologies and staying up-to-date with the latest trends in the tech world."
+                "I'm an experienced website developer and digital marketer with expertise in Shopify and WordPress. Along with SEO optimization, my areas of expertise are Facebook Ads, Instagram, TikTok, and SEO marketing. I have a limited educational background, but I have refined my abilities to produce high-caliber work. With over 6 years of experience, "
               }
               className={"hidden"}
             />
             <AnimatedBody
               text={
-                "Beyond my work as a frontend developer, I'm an active leader in tech communities on campus. As a member of the Google Developer Student Clubs and Microsoft Learn Student Ambassadors, I've led workshops and mentored other students."
+                "I'm dedicated to offering top-notch services on Fiverr and Upwork, and I use LinkedIn to network with other experts. Together, we can strengthen your brand and grow your company to new heights. I appreciate your consideration."
               }
             />
             <AnimatedBody

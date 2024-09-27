@@ -1,141 +1,85 @@
-import Image from 'next/image';
-import service from "../../public/services/service1.jpg";
-import service2 from "../../public/services/service2.jpg";
-import service3 from "../../public/services/service 3.jpg";
-import service4 from "../../public/services/service 4.jpg";
-import { motion } from "framer-motion"; // Importing motion from framer-motion
-import { monaSans } from '../fonts/monaSans';
-import AnimatedWords2 from '../animations/AnimatedWords2';
-import AnimatedBody from '../animations/AnimatedBody';
-
-const data = [
-  {
-    title: "You will get a pro Shopify private label store",
-    description: `
-      - Shopify Store Design
-      - Quick Responses
-      - Mobile-Friendly Optimization
-      - Fully Functional Website
-      - Free On-Page SEO
-      - Winning Products Dropshipping Store
-      - Free Domain and Sitemap Submission
-    `,
-    image: service
-  },
-  {
-    title: "You will get a pro develop and modern WordPress website design",
-    description: `
-      - Responsive Layout Ensuring Seamless User Experience
-      - Tailored Automated Product Setup for Your Niche
-      - Comprehensive Niche & Product Research
-      - Unique Branded Logo for Your WordPress Site
-      - Integration of Sales-Boosting WordPress Plugins
-      - Expertly Configured Pages & Menu (About, FAQs, Contact, Policies)
-      - Strategic Email Marketing (Abandoned Cart, Order Confirmation, and more)
-      - Free Lifetime Support for Your Peace of Mind
-    `,
-    image: service2
-  },
-  {
-    title: "You will get a pro responsive Wix website design and redesign",
-    description: `
-      - Engaging Design on Wix for Optimal Conversions
-      - Responsive Layout for a Seamless User Experience
-      - Unique Branded Logo for Your WordPress Site
-      - Integration of Sales-Boosting WordPress Plugins
-      - Expertly Configured Pages & Menu (About, FAQs, Contact, Policies)
-      - Strategic Email Marketing (Abandoned Cart, Order Confirmation, and more)
-      - Free Lifetime Support for Your Peace of Mind
-    `,
-    image: service3
-  },
-  {
-    title: "You will get a pro Shopify dropshipping store",
-    description: `
-      - Designing Shopify Store
-      - Quick Responses
-      - Mobile-Friendly Store
-      - Complete functional Shopify website (The website will be ready for visitors)
-      - Free On-Page SEO
-      - Winning Products Dropshipping Store
-      - Free domain and sitemap submission in Google and Bing webmaster tools.
-    `,
-    image: service4
-  },
-];
+// components/Pricing.js
 
 export default function Services() {
   return (
-    <div className="max-w-screen-xl mx-auto p-5 sm:p-10 md:p-16 text-center">
-      {/* Heading */}
-      <div
-        className={`relative mb-16 flex w-full flex-col items-center justify-center gap-10  text-[#e4ded7] sm:items-center lg:max-w-[1440px]`}
-      >
-        <AnimatedWords2
-          title={"Services"}
-          style={`flex max-w-[500px] flex-col items-start text-left pr-5 ${monaSans.className} font-extrabold uppercase leading-[0.9em] text-[#e4ded7] sm:max-w-full sm:flex-row sm:items-center sm:justify-center sm:text-center lg:text-center text-[clamp(70px,14vw,155.04px)]`}
-        />
-        <AnimatedBody
-          text="Real Stories from Clients and Collaborators Who Have Experienced My Work Firsthand"
-          className="w-[90%] text-center text-[14px] font-semibold uppercase sm:w-[500px] md:w-[550px] md:text-[16px]"
-        />
+    <div className=" px-4 py-16  relative">
+      <div aria-hidden="true" className="absolute inset-0 h-max w-full m-auto grid grid-cols-2 -space-x-52 opacity-20">
+        <div className="blur-[106px] h-56 bg-gradient-to-br to-purple-400 from-blue-700"></div>
+        <div className="blur-[106px] h-32 bg-gradient-to-r from-cyan-400 to-indigo-600"></div>
       </div>
-      
-      {/* Grid Layout with 2 columns */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 justify-center">
-        {data.map((item, index) => (
-          <motion.div 
-            key={index} 
-            className="rounded-lg overflow-hidden shadow-lg relative"
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5, delay: index * 0.2 }}
-            whileHover={{ scale: 1.05 }}
-            style={{
-              background: "linear-gradient(135deg, rgba(0, 0, 0, 0.3) 0%, rgba(103, 124, 201, 0.7) 100%)",
-              backdropFilter: "blur(20px)",
-              boxShadow: "0 8px 32px rgba(0, 0, 0, 0.4)",
-              border: "1px solid rgba(255, 255, 255, 0.2)",
-              borderRadius: "50px",
-              opacity: 0.85,
-              padding: "20px",
-              backgroundSize: "cover",
-              backgroundRepeat: "no-repeat",
-              backgroundPosition: "center center",
-            }}
-          >
-            <a href="#">
-              <Image
-                className="w-full rounded-t-lg"
-                src={item.image}
-                alt={item.title}
-                width={500}
-                height={300}
-              />
-            </a>
-            <div className="p-6 text-white">
-              <a
-                href="#"
-                className="font-semibold text-xl inline-block mb-2"
-              >
-                {item.title}
-              </a>
-              <ul className="text-left text-white list-disc pl-5 space-y-2">
-                {item.description.split("\n").filter(Boolean).map((line, idx) => (
-                  <li key={idx} className="text-sm">{line.trim()}</li>
-                ))}
-              </ul>
 
-              {/* Add the button */}
-              <motion.button
-                whileHover={{ scale: 1.1 }}
-                className="mt-5 px-4 py-2 border border-white text-white rounded-full hover:bg-white hover:text-indigo-600 transition duration-300 ease-in-out"
-              >
-                Get Service
-              </motion.button>
-            </div>
-          </motion.div>
-        ))}
+      <div className="max-w-7xl mx-auto px-6 md:px-12 xl:px-6">
+        <div className="mb-10 space-y-4 px-6 md:px-0">
+          <h2 className="text-center text-2xl font-bold text-white sm:text-3xl md:text-4xl">Pricing</h2>
+        </div>
+
+        <div className="flex flex-col sm:flex-row justify-center gap-4">
+          {/* Starter Plan */}
+          <div className="flex flex-col items-center aspect-auto p-4 sm:p-8 border rounded-3xl bg-gray-800 border-gray-700 shadow-gray-600/10 shadow-none m-2 flex-1 max-w-md">
+            <h2 className="text-lg sm:text-xl font-medium text-white mb-2">Starter</h2>
+            <p className="text-lg sm:text-xl text-center mb-8 mt-4 text-gray-400">
+              <span className="text-3xl sm:text-4xl font-bold text-white">$19</span> / Month
+            </p>
+            <ul className="list-none list-inside mb-6 text-center text-gray-300">
+              <li className="font-bold text-orange-600">1 Website</li>
+              <li>Custom Domain</li>
+              <li>Basic SEO</li>
+              <li>Limited Support</li>
+            </ul>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              className="relative flex h-9 w-full items-center justify-center px-4 before:absolute before:inset-0 before:rounded-full before:bg-white before:transition before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95 sm:w-max"
+              href="https://example.com/starter-plan"
+            >
+              <span className="relative text-sm font-semibold text-black">Get Started</span>
+            </a>
+          </div>
+
+          {/* Pro Plan */}
+          <div className="flex flex-col items-center aspect-auto p-4 sm:p-8 border rounded-3xl bg-gray-800 border-gray-700 shadow-gray-600/10 shadow-none m-2 flex-1 max-w-md">
+            <h2 className="text-lg sm:text-xl font-medium text-white mb-2">Pro</h2>
+            <p className="text-lg sm:text-xl text-center mb-8 mt-4 text-gray-400">
+              <span className="text-3xl sm:text-4xl font-bold text-white">$49</span> / Month
+            </p>
+            <ul className="list-none list-inside mb-6 text-center text-gray-300">
+              <li className="font-bold text-orange-600">3 Websites</li>
+              <li>Custom Domain & Subdomain</li>
+              <li>Advanced SEO</li>
+              <li>24/7 Support</li>
+            </ul>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              className="relative flex h-9 w-full items-center justify-center px-4 before:absolute before:inset-0 before:rounded-full before:bg-white before:transition before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95 sm:w-max"
+              href="https://example.com/pro-plan"
+            >
+              <span className="relative text-sm font-semibold text-black">Get Started</span>
+            </a>
+          </div>
+
+          {/* Business Plan */}
+          <div className="flex flex-col items-center aspect-auto p-4 sm:p-8 border rounded-3xl bg-gray-800 border-gray-700 shadow-gray-600/10 shadow-none m-2 flex-1 max-w-md">
+            <h2 className="text-lg sm:text-xl font-medium text-white mb-2">Business</h2>
+            <p className="text-lg sm:text-xl text-center mb-8 mt-4 text-gray-400">
+              <span className="text-3xl sm:text-4xl font-bold text-white">$99</span> / Month
+            </p>
+            <ul className="list-none list-inside mb-6 text-center text-gray-300">
+              <li className="font-bold text-orange-600">Unlimited Websites</li>
+              <li>Custom Domain & Subdomain</li>
+              <li>Enterprise SEO</li>
+              <li>Premium Support</li>
+            </ul>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              className="relative flex h-9 w-full items-center justify-center px-4 before:absolute before:inset-0 before:rounded-full before:bg-white before:transition before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95 sm:w-max"
+              href="https://example.com/business-plan"
+            >
+              <span className="relative text-sm font-semibold text-black">Get Started</span>
+            </a>
+          </div>
+        </div>
       </div>
     </div>
   );

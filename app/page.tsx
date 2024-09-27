@@ -15,6 +15,7 @@ import { TimelineDemo } from "./certtifications/certification";
 import { BentoGridSecondDemo } from "./bentpgrid/bentogrid";
 import Services from "./services/services";
 import Features from "./feature/feature";
+import { MacbookScrollDemo } from "./screenmac/Screenmac";
 const Work = dynamic(() => import("./work-section/Work"));
 const About = dynamic(() => import("./about-section/About"));
 const Blog = dynamic(() => import("./blog-section/BlogGrid"));
@@ -48,6 +49,7 @@ export default function Home() {
       <main className="flex flex-col items-center justify-center bg-gradient-to-r from-[#45c8d1] to-[#677cc9] glossy-gradient">
         <Hero />
         <Work />
+        <MacbookScrollDemo></MacbookScrollDemo>
         <Reviews/>
         <Features></Features>
         <About />
