@@ -24,7 +24,7 @@ import { IconCommand } from "@tabler/icons-react";
 import { IconCaretLeftFilled } from "@tabler/icons-react";
 import { IconCaretDownFilled } from "@tabler/icons-react";
 import Image from "next/image";
-
+import upworkpf from "../../public/upworkng.png"
 export const MacbookScroll = ({
   src,
   showGradient,
@@ -166,8 +166,8 @@ export const Lid = ({
       >
         <div className="absolute inset-0 bg-[#272729] rounded-lg" />
         <Image
-          src={src as string}
-          alt="aceternity logo"
+          src={upworkpf}
+          alt="arfatupworkprofile"
           fill
           className="object-cover object-left-top absolute rounded-lg inset-0 h-full w-full"
         />
